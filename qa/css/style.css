@@ -1,0 +1,503 @@
+@charset "utf-8";
+body,td,th,li,ul,a {
+	font-family: Arial, sans-serif;
+}
+td, tr
+{
+	vertical-align:top;
+	padding:3px;
+}
+body
+{
+	overflow-x:hidden;
+	background-color:#272727;
+	direction:rtl;
+	font-style:Arial,sans-serif;
+	
+}
+p
+{
+	font-style:Arial,sans-serif;
+}
+a
+{
+	cursor:pointer;
+}
+img
+{
+	border:none;
+}
+#Content
+{
+	background-color:white;
+	width:1024px;
+	margin-top:40px;
+	margin-bottom:50px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#Header
+{
+	height:150px;
+}
+#Logo
+{
+	float: left;
+	margin-left:-100px;
+    margin-top: -20px;
+    width: 300px;
+    z-index: 1111;
+}
+#MenuBarTop
+{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 936px;
+}
+#HeaderContent
+{
+	margin-top:50px;
+	height:450px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#ContactUs
+{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#HeadLine
+{
+	padding-right:10px;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin-right: 30px;
+	width: 90%;
+}
+#HeadSlider
+{
+	height: 371px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 860px;
+}
+#MainContent
+{
+	padding:20px;
+}
+#RightCol
+{
+	width:250px;
+	float:right;
+}
+#LeftCol
+{
+	width:680px;
+	margin-right:30px;
+	float:right;
+	border-style:none;
+	border-right:solid black;
+	border-width:1px;
+}
+#SearchTop
+{
+	padding-right: 40px;
+    padding-top: 20px;
+}
+#SearchTop p
+{
+	color:#fc7905;
+	font-weight:bold;
+	font-size:11px;
+}
+#SearchTopBox a
+{
+	background-color: #FC7905;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+#SearchTopBox input
+{
+	height:16px;
+	color:silver;
+}
+
+#MenuBarTop ul
+{
+	list-style-type: none;
+    margin-right: auto;
+	margin-left:auto;
+    width: 900px;
+}
+#MenuBarTop li
+{
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-family: arial;
+    font-size: 14.5px;
+    padding-left: 52px;
+    padding-right: 52.5px;
+    padding-top: 4px;
+    text-align: center;
+}
+li.NoCurrent
+{
+	background-image: url("../images/Main/MenuBlack.png");
+    background-size: 180px 29px;
+    height: 34px;
+} 
+li.Current 
+{
+    background-color: #FC7905;
+    background-size: 180px 32px;
+    border-bottom: 11px solid black;
+    border-width: 11px;
+    height: 23px;
+}
+#FlashHeader
+{
+	margin-right:auto;
+	margin-left:auto;
+	width:856px;
+	height:156px;
+	margin-top:-10px;
+}
+#BizCard
+{
+	float:right;
+	height:260px;
+	background-repeat:no-repeat;
+	width:121px;
+	margin-right:6px;
+}
+#BizLinkCard
+{
+	margin-right: 46px;
+	margin-top: 220px;
+	position: absolute;
+
+}
+#BizLinkCard a 
+{
+    background-color: #626161;
+    color: white;
+    padding: 2px 7px;
+    text-align: center;
+    text-decoration: none;
+}
+#HeadLine
+{
+	background-image: url("images/Main/LBar.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    margin-right: 30px;
+    padding-right: 0;
+    width: 858px;
+}
+#HeadLine h1
+{
+	color:white;
+	margin-right:20px;
+}
+#BizHeadlineCard
+{
+	background-color: #FC7905;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: center;
+	width: 120px;	
+	margin-right:1px;
+	height:20px;
+}
+#BizHeadlineCard a
+{
+	color: white;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#BizCategoryPage
+{
+	padding-top:10px;
+	padding-right:10px;
+}
+#MovePage
+{
+	clear:both;
+	text-align:center;
+}
+#MovePage a
+{
+	background-color:#FC7905;
+	color:white;
+    padding: 4px 8px;
+}
+#LeftBar
+{
+	background-image:url('../images/Main/LBar.png');
+	height:40px;
+	margin-bottom:10px;
+	padding-top:10px;
+	background-repeat:no-repeat;
+	background-size:840px 50px;	
+}
+#LeftBar a, #RightBar a
+{
+	padding-right:20px;
+	font-weight:bold;
+	font-size:14pt;
+	color:white;
+	text-decoration:none;
+}
+#RightBar
+{
+	background-image:url('../images/Main/LBar.png');
+	background-repeat:no-repeat;
+	padding-top:10px;
+	height:38px;
+	background-size:840px 50px;	
+
+}
+#ChooseBusiness
+{
+	background-color: #272727;
+    color: white;
+    height: 190px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+#Commercial
+{
+    height: 250px;
+}
+#News
+{
+	background-color: #272727;
+    height: 300px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+#News a
+{
+	text-decoration:none;
+	color:white;
+}
+#rss li
+{
+	background-image: url("../images/Main/ArrowOrange.png");
+    background-position: 100% 0.3em;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.SubNews a
+{
+	float:right;
+	direction:rtl;
+	margin-top:20px;
+	margin-right:8px;
+}
+#WantedBusinss
+{
+	background-color: #272727;
+    height: 190px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+#WantedBusinss ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	padding-top:10px;
+}
+#WantedBusinss li
+{
+background-image: url(../images/Main/ArrowOrange.png);
+background-repeat: no-repeat;
+background-position: 100% .3em;
+padding-right: 20px;
+margin-top:10px;
+}
+#WantedBusinss a
+{
+	height:20px;
+	color: white;
+	text-decoration:none;
+}
+#ChooseBusiness a
+{
+	background-color:#fc7905;
+	padding-right:10px;
+	padding-left:10px;
+	margin-top:10px;
+	cursor:pointer;
+	font-weight:bold;
+	margin-right:150px;
+}
+#ChooseBusiness p
+{
+	font-size:14pt;
+	font-weight:bold;
+}
+#ChooseBusiness select
+{
+	width:200px;
+}
+#Facebook
+{
+	border: medium solid;
+    height: 260px;
+    padding: 0;
+}
+#Footer
+{
+	height:250px;
+	margin-top:80px;
+	text-align:center;
+}
+#Line
+{
+	width:90%;
+	margin-right:auto;
+	margin-left:auto;
+}
+#Line hr
+{
+	background-color:grey;
+	height:15px;
+}
+#FooterText
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+#FooterText a
+{
+	text-decoration:none;
+	color:grey;
+	margin-top:100px
+}
+.clear {
+	clear:both
+}
+
+#gallery {
+	height:391px;
+	position:absolute;
+}
+#gallery a 
+{
+		position:absolute;
+}
+#gallery a img 
+{
+		text-align:center;
+		padding-top: 31px;
+		border:none;
+}
+#gallery a.show 
+{
+		z-index:500;
+}
+
+#gallery .caption 
+{
+		z-index:600; 
+		background-color:#000; 
+		color:#ffffff; 
+		height:100px; 
+		width:100%; 
+		position:absolute;
+		bottom:0;
+		text-align:right;
+}
+#gallery .caption .content 
+{
+		height: 60px;
+		margin: 5px;
+		padding: 5px;
+}
+#gallery .caption .content h3 
+{
+		margin:0;
+		padding:0;
+		color:#FC7905;
+}
+#BusinessAreaNumber
+{
+
+}
+#BusinessAreaNumber ul
+{
+    list-style-type: none;
+    margin: -20px 0 0;
+    padding: 0 10px 10px;
+}
+#BusinessAreaNumber li
+{
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: right;
+    width: 100%;
+	
+}
+#BusinessAreaNumber a
+{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	font-size:13pt;
+}
+#HeadlineAreaNumber
+{
+	background-color: #CBCBCB;
+    height: 25px;
+    padding: 20px;
+}
+#AreaLinks
+{
+	height:30px;
+}
+#AreaLinks a
+{
+	margin-right:20px;
+	font-size:16px;
+}
+#BizPageAjax
+{
+	background: none repeat scroll 0 0 white;
+    border-style: solid;
+    margin: 10px;
+    padding: 3px;
+	height:655px;
+}
+#BizPageAjax h1
+{
+    background-color: #F8CEA8;
+    font-size: 16pt;
+    font-weight: normal;
+    margin: 0 162px 0 0;
+    padding: 4px;
+    width: 461px;
+}
+#BizPageAjaxImg
+{
+    border: 2px solid black;
+    float: right;
+    height: 150px;
+    margin-left: 10px;
+    padding: 2px;
+    width: 150px;
+}

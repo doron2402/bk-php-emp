@@ -1,0 +1,28 @@
+<?php
+Header("content-type: application/x-javascript");
+
+$query = "SELECT * FROM Radio;";
+$result = mysql_query($query);
+
+
+echo 'function getStation(station)' . "\n";
+echo    '{'. "\n";
+echo     'alert("sdfsd");' . "\n";
+echo        'var radio;' . "\n";
+echo         'switch (station)' . "\n";
+echo         '{\n';
+while ($row = mysql_fetch_object($result))
+    {
+            echo 'case '. $row->Id .':' . "\n";
+            echo 'radio = "'. $row->Link .'";' . "\n";
+            echo 'break;' . "\n";
+   } 
+            echo 'defualt:' . "\n";
+            echo 'radio = "http://locator.3dcdn.com/glz/glglzradio/300/200/radio.html";' . "\n";
+            echo 'break;' . "\n";
+echo '        }';
+echo        'window.open(radio,station, \'width=300,height=200\')' . "\n";
+echo     '}';
+    
+    
+?>

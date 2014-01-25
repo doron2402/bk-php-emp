@@ -1,0 +1,9 @@
+function getRss(rss)
+{
+    alert(rss);
+    var data = 'rss=' + rss;
+    alert(data);
+    $.ajax({type:"POST",url:"Include/Rss/rss_proxy.php",data: data,success:function(html){('#rss').html(html);}
+
+}
+

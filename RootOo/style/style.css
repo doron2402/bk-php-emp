@@ -1,0 +1,245 @@
+@charset "utf-8";
+#container {
+	margin: auto;
+	width: 350px;
+	height:1500px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000033;
+	border-right-color: #000033;
+	border-bottom-color: #000033;
+	border-left-color: #000033;
+	background-color: #CCCCCC;
+}
+#container #header #header_left {
+	float: left;
+	background-image: url(images/header_left.gif);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 45px;
+}
+#container #header #header_right {
+	background-image: url(images/header_right.gif);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 6px;
+	float: right;
+}
+body {
+	padding-top: 0px;
+	background-color: #CCCCCC;
+}
+#container #content {
+	padding: 5px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+#container #footer {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	text-align: right;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	border-right-color: #000033;
+	border-bottom-color: #000033;
+	border-left-color: #000033;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#container #footer a {
+	color: #999999;
+	text-decoration: none;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+#container #header #header_main {
+	float: left;
+	padding: 5px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.sbtn    {
+	background-image: url(images/button.gif);
+	border: 1px solid #000033;
+	height: 22px;
+	width: 82px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-position: center;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+button {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 22px;
+	width: 82px;
+	background-image: url(images/button.gif);
+}
+#container #content #form1 legend {
+	padding: 5px;
+	margin: auto;
+}
+form {
+	margin: 20px;
+}
+
+
+
+
+#container #header {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(images/header_bg.gif);
+	background-repeat: repeat-x;
+	height: 42px;
+}
+label {
+	padding: 0px;
+	text-align: center;
+}
+
+.msg {
+	background-image: url(images/ok.gif);
+	text-align:left;
+	margin-left:30px;
+    margin-right:30px;
+	color:#666;
+	background-repeat: no-repeat;
+	padding:5px;
+    padding-left:30px;
+}
+
+.emsg {
+	background-image: url(images/nok.gif);
+	text-align:left;
+	margin-left:30px;
+    margin-right:30px;
+	color:#666;
+	background-repeat: no-repeat;
+	padding:5px;
+    padding-left:30px;
+}
+#EditPage
+{
+    text-align: right;
+    float:right;
+    width: 800px;
+    margin-right: 40px;
+}
+#EditPage fieldset
+{
+    float: right;
+    text-align: right;
+    width: 650px;
+}
+#EditPage p
+{
+    float:right;
+}
+#EditPage input
+{
+    float:left;
+}
+#Menu
+{
+    float: right !important;
+    margin: 0 0 0 20px;
+}
+#Menu ul
+{
+    background-color: #CCCCCC;
+    width: 800px;
+    height: 800px;
+}
+#Menu li {
+    width: 100px;
+    height: 980px;
+    background-color: #CCCCCC;
+    display: block;
+    float: right;
+    list-style-type: none;
+    margin: 30px 2px 2px 20px;
+}
+#Menu a{float:right;margin-right: 10px;text-align: center; text-decoration: none;}
+#IndexPages
+{
+    margin-right: 30px;
+    float:right;
+    margin-top: 30px;
+    width: 800px;
+}
+#IndexPages a{text-decoration: none;}
+#IndexPages p{text-align: right; font-size: 22px;}
+#IndexPages li{ margin-right: 30px;text-align: right;float: right;width: 600px;}
+#IndexPages hr{width: 400px; margin-top: 10px;margin-bottom: 10px; float: right;}
+
+#footer{bottom: 0px;position: fixed;}
+#footer p{text-decoration: none;color: white; background-color: black;height:20px;margin-left: 3px;margin-right: 3px;}
+#EditRadio
+{
+    float: right;
+    width: 800px;
+    text-align: right;  
+}
+#EditRadio p{text-align: right;}
+#main_body
+{
+    float: right;
+    width: 800px;
+}
+#main_body ul
+{
+    float: right;
+    width: 700px;
+}
+#main_body li
+{
+    float: right;
+}
+#ChosenBusiness
+{
+	padding:20px;
+}
+#ChosenBusiness li
+{
+	width:500px;
+	height:140px;
+}
+#ChosenBusiness input
+{
+	width:150px;
+	margin-top:5px;
+}
